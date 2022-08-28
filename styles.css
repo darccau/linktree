@@ -7,14 +7,10 @@ html {
 }
 
 body {
-  background: url(./assets/bg01.jpg) no-repeat center center fixed;
+  background: url(./assets/morro-do-careca.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
-h1 {
-  font-size: 20px;
-  color: #000;
-}
 header {
   margin-top: 3em;
   text-align: center;
@@ -28,7 +24,7 @@ header > img {
   height: 6em;
   border-radius: 100%;
   border: 1px solid #fff;
-  box-shadow: rgc(28 32 93/ 24%) 0px 2px 8px 0px;
+  box-shadow: rgc(28 32 93/24%) 0px 2px 8px 0px;
 }
 
 header > h1 {
@@ -43,6 +39,7 @@ header > h1 {
   backdrop-filter: blur(10px) saturate(160%) contrast(180%);
   -webkit-backgrop-filter: blur(10px) saturate(160%) contrast(180%);
 }
+
 ul {
   box-sizing: border-box;
   list-style: none;
@@ -59,12 +56,15 @@ ul > li {
   margin: 1.4em 0;
   box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
 }
+
 ul > li > a {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 0.5em;
+  gap: 0.5em;
+  padding: 1em;
 }
 
 a {
