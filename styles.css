@@ -1,4 +1,4 @@
-body,
+boy,
 html {
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background: url(./assets/morro-do-careca.jpg) no-repeat center center fixed;
+  background: url(./assets/tigre.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
